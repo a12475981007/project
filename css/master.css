@@ -1,0 +1,453 @@
+html, body {
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+  .fir-title{
+    float: left;
+    margin-top: 3px;
+    font-size: 13px;
+  }
+  .t-register:hover{
+    cursor: pointer;
+    color: #ff5000;
+  }
+  .my-titt{
+    width: 40%;
+  }
+  .t-loaction{
+    padding-left: 14px;
+  }
+  .t-loaction:hover{
+    cursor: pointer;
+    color: #ff5000;
+  }
+  .t-login{
+    color: #f22e00;
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+  .t-login:hover{
+    cursor: pointer;
+    color : #00f;
+  }
+  .t-phone{
+    padding-left: 25px;
+  }
+  .t-phone:hover{
+    cursor: pointer;
+    color: #ff5000;
+  }
+  .t-abc{
+
+    text-align: right;
+  }
+  .my-titleleft{
+    float:right;
+    width: 60%;
+    /* background-color: #ccc; */
+  }
+  .t-mytao{
+    padding-left: 15px;
+  }
+  .t-myshopping{
+    padding-left: 15px;
+  }
+  .t-fav{
+    padding-left: 15px;
+  }
+  .t-abc{
+    padding-left: 15px;
+  }
+  .t-sea{
+    padding-left: 15px;
+  }
+  .sec-tit{
+      height: 100px;
+      background-color: #fff;
+  }
+  .st-1{
+    float:left;
+    width: 20%;
+    height: 100px;
+    background-color: #ff5000;
+    font-size: 60px;
+    color: #fff;
+    text-align: center ;
+    line-height: 100px;
+    font-family: "標楷體";
+    letter-spacing: 0px;
+  }
+  .my-tai{
+    float:right;
+    line-height: 90px;
+    font-size: 20px;
+  }
+  .st-2{
+    float: left;
+    width: 45%;
+    height: 100px;
+    background-color: #ff5000;
+  }
+  .st-25{
+    float: left;
+    width: 5%;
+    height: 100px;
+    background-color: #ff5000;
+  }
+  .st-3{
+    float: left;
+    width: 14%;
+    height: 100px;
+    background-color: #ff5000;
+  }
+  .st-3-1{
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+  }
+  .st-3-2{
+    line-height: 20px;
+    text-align: center;
+    background-color:#FFF0E8;
+    width: 150px;
+    height: 20px;
+    margin-left: 60px;
+    color: #ff4400;
+  }
+  .st-4{
+    float: left;
+    width: 8%;
+    height: 100px;
+    background-color: #ff5000;
+    color: #fff;
+    text-align: center;
+  }
+
+  .st-5{
+    float: left;
+    width: 8%;
+    height: 100px;
+    background-color: #ff5000;
+    color: #fff;
+    text-align: center;
+  }
+  .my-keyword{
+    float:left;
+    font-size: 13px;
+    padding-right: 5px;
+    color: #ffa880;
+  }
+  .my-keyword:hover{
+    color: #fff;
+    cursor: pointer;
+  }
+  .sr-oth{
+    width: 80px;
+    color: #fff;
+    text-align: right;
+  }
+  .st-1:hover{
+    cursor: pointer;
+  }
+  .st-25:hover{
+    cursor: pointer;
+  }
+  .st-3-1:hover{
+    cursor: pointer;
+    color: #00c;
+  }
+  .st-3-2:hover{
+    cursor: pointer;
+    color: #0a0;
+  }
+  .st-25:hover{
+    cursor: pointer;
+  }
+  .st-4:hover{
+    cursor: pointer;
+    color: #0a0;
+  }
+  .st-5:hover .st-55{
+    cursor: pointer;
+    color: #0a0;
+    top:100px;
+    opacity: 1;
+  }
+  .st-55{
+      top: 4px;
+      right: 20px;
+      width: 150px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+
+  }
+  .my-move0{
+      border-bottom: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #f8f8f8;
+      margin: 0;
+      height: 40px;
+      width: 5%;
+      line-height: 15px;
+      display: block;
+      padding: 0;
+      background-color: #fff;
+      padding-top: 20px;
+      float: left;
+  }
+  .my-move1{
+      border-bottom: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #f8f8f8;
+      margin: 0;
+      height: 40px;
+      width: 3%;
+      line-height: 15px;
+      display: block;
+      padding: 0;
+      background-color: #fff;
+      padding-top: 20px;
+
+  }
+  .my-move1-2{
+      border-bottom: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: #f8f8f8;
+      margin: 0;
+      height: 40px;
+      width: 92%;
+      line-height: 15px;
+      display: block;
+      padding: 0;
+      background-color: #fff;
+      float: left;
+      padding-top: 20px;
+  }
+  .my-move1:hover .sp-com{
+    cursor: pointer;
+    color: #0a0;
+    top:184px;
+    opacity: 1;
+    display: block;
+  }
+  .sp-com{
+      top: 100px;
+      left: 5%;
+      width: 150px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display: none;
+  }
+  .gir-com:hover{
+    color: #ff5000;
+  }
+  .boy-com:hover{
+    color: #ff5000;
+  }
+  .shoe-com:hover{
+    color: #ff5000;
+  }
+  .diamond-com:hover{
+    color: #ff5000;
+  }
+  .sport-com:hover{
+    color: #ff5000;
+  }
+  .machine-com:hover{
+    color: #ff5000;
+  }
+  .gir-com:hover .gir-com1{
+    cursor: pointer;
+    color: #000;
+    top:0px;
+    opacity: 1;
+    display: block;
+  }
+  .gir-com1 {
+      top: 0px;
+      left: 150px;
+      width: 650px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display: none;
+  }
+  .boy-com:hover .boy-com1{
+    cursor: pointer;
+    color: #0a0;
+    top:0px;
+    opacity: 1;
+    display: block;
+  }
+  .boy-com1 {
+      top: 0px;
+      left: 150px;
+      width: 650px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display: none;
+
+  }
+  .shoe-com:hover .shoe-com1{
+    cursor: pointer;
+    color: #0a0;
+    top:0px;
+    opacity: 1;
+    display: block;
+  }
+  .shoe-com1 {
+      top: 0px;
+      left: 150px;
+      width: 650px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display: none;
+  }
+  .shop-sty{
+    padding: 16px;
+    float: left;
+  }
+  .diamond-com:hover .diamond-com1{
+    cursor: pointer;
+    color: #0a0;
+    top:0px;
+    opacity: 1;
+    display: block;
+  }
+  .diamond-com1 {
+      top: 0px;
+      left: 150px;
+      width: 650px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display: none;
+  }
+  .sport-com:hover .sport-com1{
+    cursor: pointer;
+    color: #0a0;
+    top:0px;
+    opacity: 1;
+    display: block;
+  }
+  .sport-com1 {
+      top: 0px;
+      left: 150px;
+      width: 650px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display:none;
+  }
+  .machine-com:hover .machine-com1{
+    cursor: pointer;
+    color: #000;
+    top:0px;
+    opacity: 1;
+    display: block;
+  }
+  .machine-com1 {
+      top: 0px;
+      left: 150px;
+      width: 650px;
+      height: 300px;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+      -webkit-transition-duration: 500ms;
+      display: none;
+  }
+  .my-table{
+
+    margin-top: 200px;
+    background-color: #fff;
+    margin-left: 100px;
+    width: 600px;
+
+  }
+  .table-row1{
+    width: 600px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #F2F2F2;
+  }
+  .table-text1{
+    width: 300px;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+  .table-text2{
+    padding-bottom: 50px;
+    color: #9E9E9E;
+  }
+  .table-text3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #13A9FB;
+  }
+  .table-text1:hover{
+    cursor: pointer;
+    color: #ff5000;
+  }
+  .gir-td1{
+    float: left;
+    padding: 5px;
+
+  }
+  .gir-td{
+    margin-top: 35px;
+    width: 300px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+  }
+  .gir-td1:hover{
+    cursor: pointer;
+    color: #ff5000;
+  }
+  .gir-td:hover{
+    cursor: pointer;
+    color: #ff5000;
+  }
+  .login_tab{
+    top: 30%;
+    left: 40%;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.3);
+
+    display: none;
+
+
+  }
